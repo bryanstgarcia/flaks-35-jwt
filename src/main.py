@@ -39,6 +39,10 @@ def sitemap():
 def hola():
     return '<h1>Hola</h1>', 200
 
+@app.route('/chao')
+def chao():
+    return '<h1>Chao</h1>', 200
+
 @app.route('/user', methods=['POST'])
 def handle_hello():
     body = request.json
