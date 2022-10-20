@@ -13,7 +13,7 @@
 - Use of `.env` file.
 - SQLAlchemy integration for database abstraction.
 
-## Installation (automatic if you are using gitpod)
+## Installation (automatic if you are using gitpod)✅
 
 > Important: The boiplerplate is made for python 3.7 but you can easily change the `python_version` on the Pipfile.
 
