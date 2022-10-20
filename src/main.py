@@ -35,6 +35,10 @@ def handle_invalid_usage(error):
 def sitemap():
     return generate_sitemap(app)
 
+@app.route('/hola')
+def hola():
+    return '<h1>Chao</h1>', 200
+
 @app.route('/chao')
 def chao():
     return '<h1>Chao</h1>', 200
